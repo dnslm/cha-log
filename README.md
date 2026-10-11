@@ -3,7 +3,7 @@
 
 # 🍵 Чайный дневник
 
-[![CI](https://github.com/dnslm/tea-diary/actions/workflows/ci.yml/badge.svg)](https://github.com/dnslm/tea-diary/actions/workflows/ci.yml)
+[![CI](https://github.com/dnslm/cha-log/actions/workflows/ci.yml/badge.svg)](https://github.com/dnslm/cha-log/actions/workflows/ci.yml)
 
 Веб-приложение для записи чайных сессий: какой чай, как заваривал, что почувствовал. Заметки хранятся в базе данных, их можно искать, фильтровать и сравнивать.
 
