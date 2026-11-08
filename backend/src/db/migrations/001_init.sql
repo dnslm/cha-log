@@ -19,7 +19,7 @@ CREATE TABLE categories (
   description TEXT
 ) STRICT;
 
---регионы
+-- регионы
 CREATE TABLE regions (
   id       INTEGER PRIMARY KEY,
   name     TEXT NOT NULL,
