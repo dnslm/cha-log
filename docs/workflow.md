@@ -97,19 +97,19 @@ main ──●───────────●──────────
 
 **Этап 0. Старт**
 
-- [ ] `chore: add repository skeleton` (первый коммит из заготовки)
-- [ ] `docs: fill in README placeholders` (имя пользователя и репозитория в бейдже, имя в LICENSE)
-- [ ] `ci: get the first green pipeline`
-- [ ] `chore: protect main branch`
-- [ ] `chore: create project board, labels and milestones`
+- [x] `chore: add repository skeleton` (первый коммит из заготовки)
+- [x] `docs: fill in README placeholders` (имя пользователя и репозитория в бейдже, имя в LICENSE)
+- [x] `ci: get the first green pipeline`
+- [x] `chore: protect main branch`
+- [x] `chore: create project board, labels and milestones`
 
 **Этап 1. Бэкенд и БД**
 
-- [ ] `feat(backend): init Express app with health endpoint`
-- [ ] `docs: choose ORM and record the decision`
-- [ ] `feat(db): initial schema and migration (users, teas)`
-- [ ] `feat(api): CRUD for /api/teas`
-- [ ] `test(api): tests for teas endpoints`
-- [ ] `ci: run backend tests in the pipeline`
+- [x] `feat(backend): init Express app with health endpoint`
+- [x] `feat(db): initial schema and migration runner`
+- [ ] `test(db): tests for schema and migrations`
+- [ ] `feat(db): import catalog from CSV`
+- [ ] `feat(api): CRUD for dictionaries and /api/teas`
+- [ ] `test(api): tests for catalog endpoints`
 
 Задачи следующих этапов заводим по мере приближения, чтобы не планировать слишком далеко вперёд.
