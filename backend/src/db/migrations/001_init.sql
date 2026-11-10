@@ -1,14 +1,14 @@
 -- НАЧАЛЬНАЯ СХЕМА БД
 
 -- юзеры
-CREATE TABLE users {
+CREATE TABLE users (
   id            INTEGER PRIMARY KEY,
   email         TEXT NOT NULL UNIQUE COLLATE NOCASE,
   password_hash TEXT NOT NULL,
   display_name  TEXT NOT NULL,
   role          TEXT NOT NULL DEFAULT 'user' CHECK (role IN ('user', 'admin')),
   created_at    TEXT NOT NULL DEFAULT (datetime('now'))
-} STRICT;
+) STRICT;
 
 
 -- справочники (редактирует админ)
